@@ -1,0 +1,137 @@
+body
+{
+	color:black;
+	font-family:Arial;
+	/* text-align: center; - can be used to center all if other text-align's inactive*/
+	background-color: #ffffe0;
+
+	
+}
+@media(min-width:768px){
+
+.container2{
+	display:flex;
+	justify-content:flex-start;
+	
+}	
+.container3{
+	display:flex;	
+	justify-content:space-around;
+}	
+}
+
+.container1{
+	display:flex;
+	justify-content: center;
+	
+}
+.container4{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-center;
+	
+}
+.container1 div, .container2 div, .container3 div, .container4 div{
+	/*border:1px #ccc solid;
+	padding: 10px;*/
+}
+.box1{
+	flex-basis:15%;
+}
+.box8{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis:15%;
+}
+
+
+.box2{
+	flex:1;
+	order:2;
+	
+}
+
+.box3{
+	flex:2;
+	order:1;
+	
+	
+}
+
+.box4{
+	flex-basis:22%;
+	
+	
+}
+
+.box5{
+	flex-basis:22%;
+	
+	
+}
+.box6{
+	
+	flex-basis:22%;
+	
+}
+
+
+h1
+{
+	color:grey;
+	text-shadow: 3px 3px black;
+	font-size:32px;
+	text-align: center;
+	
+	
+}
+
+h2
+{
+	color:grey;
+	text-shadow: 3px 3px black;
+	font-size:24px;
+	text-align:left;
+	text-indent:10%;
+	
+}
+
+h3
+{
+	color:green;
+	font-size:28px;
+	text-align:center;
+	
+	
+}
+h4{
+	text-align:center;
+}
+span{
+	text-decoration:underline;
+	font-weight: bold;
+}
+p
+{
+	text-indent: 12%;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.points
+{
+	text-indent: 4%;
+	font-size:16px;
+	font-weight:normal;
+	margin: 0%  10% 0% 10%;
+	
+}
+ul
+{
+	list-style: square outside none;
+	margin-left:12%;
+	color:black;
+	font-size:16px;
+	font-weight:normal;
+}
